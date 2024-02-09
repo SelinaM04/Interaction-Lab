@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: url('../img/4.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #ddd;
+}
+
+
+.text-container {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+    line-height: 1.6;
+    position: relative; 
+    overflow-y: auto;
+}
+
+.text-container p {
+    color: #333333;
+    font-size: 16px;
+    margin-bottom: 10px; 
+
+}
+
+.corner {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    border-color: hwb(40 60% 13%);
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+.frame {
+    position: absolute;
+    width: 100%;
+    height: auto; 
+    min-height: 100vh; 
+    max-height: fit-content;
+    background: #f0f0f0; 
+    background-attachment: fixed;
+    padding: 20px; 
+}
+
+.link-recollection { color:  #c7522a; }
+.link-awwwards { color: #e5c185; } 
+.link-airpods { color: hsl(50, 36%, 74%); } 
+.link-click { color: #74a892; } 
+.link-upperquad { color: #008585; }
+
+.link-recollection:hover { 
+    color: #352b2d; 
+}
+
+.link-awwwards:hover {
+    color: #352b2d;
+}
+
+.link-airpods:hover {
+    color:#352b2d;
+}
+
+.link-click:hover {
+    color: #352b2d;
+}
+
+.link-upperquad:hover {
+    color:#352b2d;
+}
+
+
+.color-strawberry-shortcake { color: #d9a7b0; } 
+.color-omelette { color: #a7cbd9; } 
+.color-bbq-chicken-wings { color: #68a0a6; } 
+.color-fried-tofu { color: #352b2d; } 
+.color-big-mac { color: hsl(24, 35%, 76%); } 
+.color-cacio-pepe { color: #a66f6f; } 
+
+
+.hello-world{
+    text-align: center;
+    color: #fff;
+    font-size: 92px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    background: linear-gradient(to right,#fb6095 10%, #fb878e 30%, #fbaf87 50%, #fbd680 60%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.5s linear infinite;
+      display: inline-block;
+    }
+
+  
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+}
+
+
+.fun-image {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.center-content {
+    text-align: center;
+}
+
+.responsive-iframe {
+    width: 560px; 
+    height: 315px;
+    display: block;
+    margin: auto;
+}
