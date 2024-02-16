@@ -1,0 +1,64 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdf6f3; 
+}
+
+.album-artwork {
+    position: relative;
+    width: 80vmin; 
+    height: 80vmin;
+    background-color: #fff9e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle {
+    width: 50vmin;
+    height: 50vmin;
+    border-radius: 50%;
+    background-color: #f9cdd1;
+    position: relative; 
+    overflow: hidden;
+  }
+  
+
+.diagonal-stripe {
+    position: absolute;
+    height: 15%;
+    width: 150%;
+    top: 50%;
+    left: 50%;
+   
+    transform-origin: 0 0;
+}
+
+.diagonal-stripe.blue {
+    background: #009ddc; 
+    z-index: 1;
+    transform: translate(-50%, +350%) rotate(-45deg);
+}
+
+.diagonal-stripe.red {
+    background: #ed213a; 
+    z-index: 3;
+    transform: translate(-40%, calc(-150% + 520%)) rotate(-45deg); 
+}
+
+.diagonal-stripe.lightblue {
+    background: #192667; 
+    z-index: 2;
+    transform: translate(-50%, calc(-50% + 490%)) rotate(-45deg);
+}
+
+
+@media (max-width: 600px) {
+    .album-artwork {
+        width: 80vmin;
+        height: 80vmin;
+    }
+}
