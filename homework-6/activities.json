@@ -1,0 +1,42 @@
+{
+    "firstName": "Selina",
+    "lastName": "Ma",
+    "activities": [
+        {
+            "name": "Hiking in Joshuatree",
+            "dateStart": "04/10/2021",
+            "dateEnd": "04/17/2021",
+            "description": "A week long hiking trip through Joshuatree National Park with highschool friends.",
+            "wouldRepeat": true
+        },
+        {
+            "name": "Picnic in Central Park",
+            "dateStart": "10/12/2023",
+            "dateEnd": "10/12/2023",
+            "description": "Had picnic in Central Park in NYC with friends in the afternoon.",
+            "wouldRepeat": true
+        },
+        {
+            "name": "Cooking Workshop: Chinese Cuisine",
+            "dateStart": "12/28/2023",
+            "dateEnd": "12/28/2023",
+            "description": "Attended a cooking workshop with my mom to learn about Chinese cuisine and cooking techniques.",
+            "wouldRepeat": false
+        },
+        {
+            "name": "Trip to Japan",
+            "dateStart": "01/09/2024",
+            "dateEnd": "01/19/2024",
+            "description": "Travel to Tokyo, Japan with my mom for 10 days.",
+            "wouldRepeat": true
+        },
+        {
+            "name": "One Day Trip to Boston",
+            "dateStart": "03/19/2024",
+            "dateEnd": "03/19/2024",
+            "description": "One day trip to Boston with friend during spring break, it was tried but much fun.",
+            "wouldRepeat": false
+        }
+    ]
+    
+}
