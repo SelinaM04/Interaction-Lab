@@ -32,7 +32,10 @@ function getRandomPokemon() {
         pokeDOM += `<li>${move.move.name}</li>`;
       });
 
-      pokeDOM += `</ul></div>`;
+      pokeDOM += `</ul>`;
+  
+      
+      pokeDOM += `</div>`;
 
       pokemonContainer.innerHTML = pokeDOM;
     })
